@@ -13,7 +13,7 @@ function deObjetoAmatriz(objeto){
 
 var newArray = []
 for (property in objeto) {
-  newArray.push([objeto[property], property])
+  newArray.push([property, objeto[property])
 }
 return newArray
 }
